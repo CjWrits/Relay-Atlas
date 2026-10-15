@@ -23,6 +23,7 @@ model User {
   organizationId String        @map("organization_id")
   email          String        @unique
   name           String?
+  metadata       Json          @default("{}")
   createdAt      DateTime      @default(now()) @map("created_at")
   updatedAt      DateTime      @updatedAt @map("updated_at")
 
@@ -64,3 +65,4 @@ model AuditLog {
   @@index([timestamp])
   @@map("audit_logs")
 }
+
