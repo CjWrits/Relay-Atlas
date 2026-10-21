@@ -21,3 +21,7 @@ redisClient.on('error', (err) => {
 redisSubscriber.on('error', (err) => {
   console.error('[Redis:Subscriber] Connection error:', err.message);
 });
+
+export function getChannelKey(tenantId: string, channel: string): string {
+  return tlas:tenant::;
+}
