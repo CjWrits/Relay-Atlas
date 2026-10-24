@@ -100,7 +100,8 @@ export class DeadLetterQueueConsumer {
 
   public async close(): Promise<void> {
     await this.worker.close();
-    await this.redisConnection.quit();
+    await this.redisConnection.disconnect();
+    console.info('[DLQ-Consumer] Redis connection closed gracefully');
   }
 }
 
@@ -114,3 +115,4 @@ if (require.main === module) {
     process.exit(0);
   });
 }
+
