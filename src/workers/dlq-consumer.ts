@@ -112,7 +112,9 @@ if (require.main === module) {
   process.on('SIGTERM', async () => {
     console.info('Shutting down DLQ consumer...');
     await consumer.close();
+    await new Promise(r => setTimeout(r, 500));
     process.exit(0);
   });
 }
+
 
