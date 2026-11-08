@@ -7,6 +7,7 @@ export class WebSocketGateway {
   constructor(port: number) {
     this.wss = new WebSocketServer({ port });
     this.setupListeners();
+    this.setupHeartbeat();
     logger.info(`[WebSocketGateway] Listening on ws://0.0.0.0:${port}`);
   }
 
@@ -33,3 +34,13 @@ export class WebSocketGateway {
     this.wss.close();
   }
 }
+
+  private setupHeartbeat() {
+    setInterval(() => {
+      this.wss.clients.forEach((ws) => {
+        if (ws.readyState === 1) {
+          ws.ping();
+        }
+      });
+    }, 30000);
+  }
