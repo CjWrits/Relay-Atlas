@@ -14,3 +14,10 @@ export const prisma =
 if (process.env.NODE_ENV !== 'production') {
   global.prisma = prisma;
 }
+
+export async function executeSafeTransaction<T>(fn: (tx: any) => Promise<T>): Promise<T> {
+  return prisma.$transaction(fn, {
+    maxWait: 2000,
+    timeout: 5000,
+  });
+}
