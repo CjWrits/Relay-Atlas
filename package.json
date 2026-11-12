@@ -1,6 +1,6 @@
 ﻿{
   "name": "relay-atlas",
-  "version": "2.4.0",
+  "version": "2.4.1",
   "private": true,
   "description": "Project Atlas core platform engine and backend synchronization services",
   "main": "src/index.ts",
@@ -35,3 +35,4 @@
     "typescript": "^5.6.3"
   }
 }
+
