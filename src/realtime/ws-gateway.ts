@@ -1,4 +1,4 @@
-﻿import { WebSocketServer, WebSocket } from 'ws';
+import { WebSocketServer, WebSocket } from 'ws';
 import { logger } from '../lib/logger';
 
 export class WebSocketGateway {

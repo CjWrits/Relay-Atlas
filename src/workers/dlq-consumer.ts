@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Dead-Letter Queue (DLQ) Consumer & Poison Pill Recovery
  *
  * Author: Arjun Mehta <arjun.mehta@atlas-internal.io>

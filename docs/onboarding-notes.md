@@ -1,4 +1,4 @@
-﻿# Atlas Core Developer Onboarding & Technical Handover Notes
+# Atlas Core Developer Onboarding & Technical Handover Notes
 
 - **Author:** Maya Chen <maya.chen@atlas-internal.io>
 - **Date:** 2026-11-02

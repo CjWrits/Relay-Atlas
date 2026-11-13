@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Server-Sent Events (SSE) Cross-Tab Session Synchronization
  *
  * ARCHITECTURAL DECISION NOTE:

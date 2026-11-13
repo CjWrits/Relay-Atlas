@@ -1,4 +1,4 @@
-﻿-- Migration: 20261015_v2_4_user_locks
+-- Migration: 20261015_v2_4_user_locks
 -- Author: Arjun Mehta <arjun.mehta@atlas-internal.io>
 -- Applied Version: Atlas Core v2.4
 -- Target Table: public.users

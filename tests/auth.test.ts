@@ -1,4 +1,4 @@
-﻿import { signAccessToken, verifyAccessToken } from '../src/auth/jwt';
+import { signAccessToken, verifyAccessToken } from '../src/auth/jwt';
 import { UserContext } from '../src/auth/types';
 
 describe('Auth JWT Utilities', () => {

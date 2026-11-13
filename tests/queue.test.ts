@@ -1,4 +1,4 @@
-﻿describe('Queue Worker Resilience', () => {
+describe('Queue Worker Resilience', () => {
   it('should format poisoned message payload accurately', () => {
     const payload = {
       originalQueue: 'telemetry',

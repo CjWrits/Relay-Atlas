@@ -1,4 +1,4 @@
-﻿# ADR-001: Zero-Downtime Database Concurrency and Migration Guidelines
+# ADR-001: Zero-Downtime Database Concurrency and Migration Guidelines
 
 - **Status:** APPROVED
 - **Date:** 2026-10-10

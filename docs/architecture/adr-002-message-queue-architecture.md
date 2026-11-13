@@ -1,4 +1,4 @@
-﻿# ADR-002: BullMQ Message Queue Architecture & Retry Topologies
+# ADR-002: BullMQ Message Queue Architecture & Retry Topologies
 
 - **Status:** APPROVED
 - **Date:** 2026-10-17

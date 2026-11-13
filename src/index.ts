@@ -1,4 +1,4 @@
-﻿import http from 'http';
+import http from 'http';
 import { config } from './config';
 import { logger } from './lib/logger';
 import { SessionSyncBroker } from './auth/session-sync';

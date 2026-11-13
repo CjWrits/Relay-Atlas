@@ -1,4 +1,4 @@
-﻿import { Queue, QueueOptions } from 'bullmq';
+import { Queue, QueueOptions } from 'bullmq';
 import { redisClient } from '../lib/redis';
 
 const queueOptions: QueueOptions = {

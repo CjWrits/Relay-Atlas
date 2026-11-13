@@ -1,4 +1,4 @@
-﻿# Operational Runbook: Dead-Letter Queue (DLQ) Triage
+# Operational Runbook: Dead-Letter Queue (DLQ) Triage
 
 ## Severity
 - **Level:** SEV-3 (Transient failures) / SEV-2 (Sustained queue buildup > 500 items)

@@ -1,4 +1,4 @@
-﻿export interface SessionSyncPayload {
+export interface SessionSyncPayload {
   userId: string;
   sessionId: string;
   eventType: 'TOKEN_REFRESHED' | 'SESSION_TERMINATED' | 'MFA_REQUIRED' | 'POLICY_UPDATE';

@@ -1,4 +1,4 @@
-﻿# RFC-0042: Preferring WebSockets over SSE for Atlas Event Streaming
+# RFC-0042: Preferring WebSockets over SSE for Atlas Event Streaming
 
 - **Author:** Elena Rostova <elena.rostova@atlas-internal.io>
 - **Date:** 2026-10-12

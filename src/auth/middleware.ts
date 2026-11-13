@@ -1,4 +1,4 @@
-﻿import { IncomingMessage, ServerResponse } from 'http';
+import { IncomingMessage, ServerResponse } from 'http';
 import { verifyAccessToken } from './jwt';
 import { UserContext } from './types';
 

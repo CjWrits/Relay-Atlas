@@ -1,4 +1,4 @@
-﻿import { Worker, Job } from 'bullmq';
+import { Worker, Job } from 'bullmq';
 import { redisClient } from '../lib/redis';
 import { logger } from '../lib/logger';
 

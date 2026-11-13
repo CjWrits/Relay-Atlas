@@ -1,4 +1,4 @@
-﻿# Setup standalone synthetic test repository 'atlas-core'
+# Setup standalone synthetic test repository 'atlas-core'
 $ErrorActionPreference = "Stop"
 
 $currentDir = (Get-Item -Path ".").FullName
