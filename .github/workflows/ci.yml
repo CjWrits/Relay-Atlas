@@ -21,3 +21,7 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: pnpm run db:generate
       - run: pnpm run build
+        env:
+          DATABASE_URL: "postgresql://mock:mock@localhost:5432/mock?schema=public"
+          REDIS_URL: "redis://localhost:6379"
+          JWT_SECRET: "relay-atlas-super-secret-development-key-32-chars-min"
